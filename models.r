@@ -20,7 +20,7 @@
   library(xgboost)
   
   # dataframe i atama
-  kalp <- read.csv("//home//lily//Desktop//Proje//kalp.csv")  
+  kalp <- read.csv("//path//of//the//kalp.csv")  
   head(kalp) 
   
   
@@ -570,7 +570,7 @@ plot(pr_curve_best, col = "red", main = "Precision-Recall Curve (XGBoost)", col.
 # Normalizasyon yapmadan islemleri gerceklestirme
 
 # dataframe i atama
-kalp <- read.csv("//home//lily//Desktop//Proje//kalp.csv")  
+kalp <- read.csv("//path//of//the//kalp.csv")  
 head(kalp) 
 
 
